@@ -1,2 +1,3 @@
-const a: number = 10;
-console.log(a)
+function sumArray(value: number[]): number {
+    return value.reduce((acc, value) => acc + value, 0);
+};
