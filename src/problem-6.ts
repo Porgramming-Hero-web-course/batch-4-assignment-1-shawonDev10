@@ -5,5 +5,5 @@ interface Profile {
 };
 
 function updateProfile(profile: Profile, update: Partial<Profile>) {
-    return { ...profile, ...update }
+    return { ...profile, ...update };
 };
